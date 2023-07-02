@@ -9,10 +9,10 @@
     <div class="image">
         <img src="../java/codewithherry.jpg" style="width: 10rem;" alt="image">
         </div>
-      <h5><li><a class="active" href="#video1"><b>CodeWithHarry</b></a></li>
+      <h5><li><a class="active" href="#video1"><b>Apna College</b></a></li>
       </h5>
       <p class="author">Author</P>
-      <h6>Harish Ali Khan</h6>
+      <h6>Shraddha</h6>
     </div>
 
     <div class="card">

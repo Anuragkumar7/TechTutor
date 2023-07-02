@@ -1,0 +1,105 @@
+/* Style for the side navbar */
+  body{
+    background-color: #000;
+}
+#navbar {
+    list-style-type: none; /* Remove the default bullet points */
+    padding: 0; /* Remove the default padding */
+    margin: 4px; /* Remove the default margin */
+    background-color: #000; /* Set a background color */
+    height: 100%; /* Set the height to fill the container */
+    overflow: auto; /* Enable scrolling */
+    position: fixed; /* Make it fixed */
+    left: 0; /* Set it to the left side of the container */
+    top: 75px; /* Set it to the top of the container */
+    width: 200px; /* Set the width */
+    transition: all 0.5s ease; /* Add a transition effect */
+}
+
+/* Style for the navbar links */
+#navbar li a {
+    display: block; /* Display the links as blocks */
+    color: #fff; /* Set the font color */
+    padding: 8px 16px; /* Add some padding */
+    text-decoration: none; /* Remove the underline */
+}
+
+/* Style for the active navbar link */
+#navbar li a.active {
+    background-color: #a7bfa5; /* Set a background color */
+    color: #fff; /* Set the font color */
+}
+
+/* Style for the video container */
+/* Style for the video container */
+#video-container {
+margin-left: 150px; /* Set the margin to push it to the right of the navbar */
+padding: 1px 16px; /* Add some padding */
+height:100%; /* Set the height to fill the container */
+overflow: auto; /* Enable scrolling */
+}
+
+/* Style for the video */
+.video {
+display: none; /* Hide the videos initially */
+width: 92%; /* Set the width to fill the container */
+height: 650px; /* Set the height */
+margin-top: 80px;
+margin-left: 100px; /* Add some margin to separate the videos */
+}
+.headers{
+color: rgb(87, 246, 66);
+margin-left: 40px;
+font-size: 50px;
+}
+.author{
+color: #1afa06;
+text-align: center;
+}
+.card{
+border-color: #16ff00;
+}
+
+#navbar::-webkit-scrollbar{
+display: none;
+}
+#navbar{
+/* background-color: #eee; */
+width: 250px;
+height: 90%;
+/* border: 1px dotted black; */
+overflow-y: scroll; 
+}
+.card{
+border-style : solid;
+border-radius: 10px;
+border-width : 2px;
+padding: 5px;
+margin: 4px 0;
+/* box-shadow: 5px 5px 10px #204c2c ;    */
+text-align : center;
+border-color: #16ff00 ;
+color : white ;
+background-color:#1a4d2e;
+
+}
+.image{
+align-items: center;
+margin: 4px;
+
+}
+.author{
+color: #16ff00 ;
+}
+@media screen and (max-width: 767px) {
+#navbar {
+    width: 100%;
+    height: auto;
+    position: static;
+}
+
+#video-container {
+    margin-left: 0;
+    padding-top: 80px;
+}
+}

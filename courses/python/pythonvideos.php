@@ -1,6 +1,6 @@
 <style>
   <?php
-  include 'pythonstyle.css';
+  include '../coursesstyle.css';
   ?>
 </style>
 

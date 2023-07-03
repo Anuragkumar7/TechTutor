@@ -1,6 +1,6 @@
 <style>
   <?php
-  include 'reactstyle.css';
+  include '../coursesstyle.css';
   ?>
 </style>
 

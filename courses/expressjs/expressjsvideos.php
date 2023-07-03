@@ -1,6 +1,6 @@
 <style>
   <?php
-  include 'expressjsstyle.css';
+  include '../coursesstyle.css';
   ?>
 </style>
 

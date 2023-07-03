@@ -19,7 +19,40 @@
     <link rel="stylesheet" href="styles/styles.css">
 
 </head>
+<style>
+    .carousel{
+  position: relative;
+  left: 200px;
+  width: 60rem; 
+  height:40rem;
+  top: 20px;
+    }
+  .container2{
+display: flex;
+margin-left: auto;
+margin-right: auto;
+overflow-x: scroll;
+padding: 24px;
+width: 100%;
+scroll-snap-type: x mandatory;
+scroll-padding: 24px;
+border-radius: 8px;
+gap: 12px;
+  }
+  .container2::-webkit-scrollbar{
+    display: none;
+  }
+  .container2 .item2{
+    flex: 0 0 100%;
+    padding: 24px;
+    border-radius: 8px;
+    scroll-snap-align: start;
+    color: white;
+    border: 3px solid white;
+  }
+  
 
+</style>
 <body">
 
     <!-- <?php
@@ -66,17 +99,37 @@
 
 
 
-        <div class="card-holder">
-            <div class="card" style="width: 18rem;">
-                <img src="courses/images/wp7250078.webp" class="card-img-top" alt="image">
-                <div class="card-body">
-                    <h5 class="card-title">JAVA</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-
+      <h1 class="center" style="text-align: center;">Course</h1>
+  <div class="container2">
+    <div class="item2">
+        <h2>python</h2>
+        <p>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Repellat incidunt, 
+            quam eligendi architecto, sed aliquam 
+            magnam natus at distinctio, porro aliquid 
+            doloremque maiores cupiditate quasi vitae 
+            obcaecati. Quam, mollitia tempora?</p>
+    </div>
+    <div class="item2">
+        <h2>python</h2>
+        <p>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Repellat incidunt, 
+            quam eligendi architecto, sed aliquam 
+            magnam natus at distinctio, porro aliquid 
+            doloremque maiores cupiditate quasi vitae 
+            obcaecati. Quam, mollitia tempora?</p>
+    </div>
+    <div class="item2">
+        <h2>python</h2>
+        <p>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Repellat incidunt, 
+            quam eligendi architecto, sed aliquam 
+            magnam natus at distinctio, porro aliquid 
+            doloremque maiores cupiditate quasi vitae 
+            obcaecati. Quam, mollitia tempora?</p>
+    </div>
+</div>
+  
 
         <div class="row">
             <div class="col-lg-6 left">
@@ -96,25 +149,36 @@
                 </form>
             </div>
             <div class="coll col-lg-6">
-                <div class="comment-section my-3">
-                    <div class="comment">
-                        Feedback1
-                    </div>
-                    <div class="comment">
-                        Feedback2
-                    </div>
-                    <div class="comment">
-                        Feedback3
-                    </div>
-                    <div class="comment">
-                        Feedback4
-                    </div>
-                    <div class="comment">
-                        Feedback5
-                    </div>
-                    <div class="comment">
-                        Feedback6
-                    </div>
+            
+            <div class="container2">
+    <div class="item2">
+        <h2>python</h2>
+        <p>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Repellat incidunt, 
+            quam eligendi architecto, sed aliquam 
+            magnam natus at distinctio, porro aliquid 
+            doloremque maiores cupiditate quasi vitae 
+            obcaecati. Quam, mollitia tempora?</p>
+    </div>
+    <div class="item2">
+        <h2>python</h2>
+        <p>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Repellat incidunt, 
+            quam eligendi architecto, sed aliquam 
+            magnam natus at distinctio, porro aliquid 
+            doloremque maiores cupiditate quasi vitae 
+            obcaecati. Quam, mollitia tempora?</p>
+    </div>
+    <div class="item2">
+        <h2>python</h2>
+        <p>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Repellat incidunt, 
+            quam eligendi architecto, sed aliquam 
+            magnam natus at distinctio, porro aliquid 
+            doloremque maiores cupiditate quasi vitae 
+            obcaecati. Quam, mollitia tempora?</p>
+    </div>
+</div>
                 </div>
             </div>
         </div>
@@ -137,7 +201,7 @@
         </div>
     </footer>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     </body>
 
 </html>

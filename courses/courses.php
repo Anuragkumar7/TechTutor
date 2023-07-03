@@ -11,19 +11,20 @@
     .btn {
         position: relative;
         left: 37rem;
-        background-color: green;
+        background-color: lightgreen;
         border-radius: 20px;
-        width: 100px;
+        width: 80px;
         height: 30px;
-
+    }
+    .btn a{
+        color:black ;
     }
 </style>
 <body>
 
-<button class="btn">Home</button>
+<button class="btn"><a href="../index.php"><i class="fa-solid fa-house"></i></a></button>
     <div class="background"></div>
     <div class="background2"></div>
-
     <!-- free plan card -->
     <div class="wrapper">
         <article class="card primary">
@@ -63,7 +64,7 @@
             <button><a href="python/python.php"> Choose plan</a></button>
         </article>
         <article class="card primary">
-            <i class="icon fa-brands fa-square-js fa-2xl"></i>
+            <i class="fa-solid fa-c fa-2xl"></i>
             <h2>C</h2>
             <ul>
                 <li>
@@ -81,7 +82,7 @@
         </article>
 
         <article class="card primary">
-            <i class="icon fa-brands fa-java fa-2xl"></i>
+            <i class="fa-solid fa-c fa-2xl"><i class="fa-solid fa-plus"></i><i class="fa-solid fa-plus"></i></i>
             <h2> C++</h2>
             <ul>
                 <li>
@@ -167,7 +168,8 @@
             <button><a href="javascript/javascript.php"> Choose plan</a></button>
         </article>
         <article class="card primary">
-            <i class="fa-sharp fa-solid fa-circle-info fa-2xl"></i>
+            <!-- <i class="fa-sharp fa-solid fa-circle-info fa-2xl"></i> -->
+            <i class="fa-brands fa-react fa-2xl"></i>
             <h2>React</h2>
           
             <ul>
@@ -191,7 +193,9 @@
     <div class="wrapper">
 
         <article class="card primary">
-            <i class="fa-brands fa-html5 fa-2xl"></i>
+            <!-- <i class="fa-brands fa-html5 fa-2xl"></i> -->
+            <!-- <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/jquery.png" alt="jquery"/> -->
+            <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/jquery.png" alt="jquery" style="background-color: white;">
             <h2>jQuery</h2>
            
             <ul>
@@ -211,7 +215,7 @@
         </article>
 
         <article class="card primary">
-            <i class="fa-brands fa-css3-alt fa-2xl"></i>
+            <i class="fa-brands fa-node-js fa-2xl"></i>
             <h2>nodejs</h2>
          
             <ul>
@@ -234,9 +238,8 @@
 
 
         <article class="card primary">
-            <i class="icon fa-brands fa-square-js fa-2xl"></i>
 
-
+            <img width="30" height="30" src="https://img.icons8.com/ios/50/express-js.png" alt="express-js" style="background-color: white;"/>
 
             <h2>Express.js</h2>
         
@@ -255,7 +258,7 @@
             <button><a href="expressjs/expressjs.php"> Choose plan</a></button>
         </article>
         <article class="card primary">
-            <i class="fa-sharp fa-solid fa-circle-info fa-2xl"></i>
+            <i class="fa-solid fa-database fa-2xl"></i>
             <h2>MangoDB</h2>
         
             <ul>

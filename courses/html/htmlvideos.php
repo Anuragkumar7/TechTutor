@@ -1,6 +1,7 @@
 <style>
   <?php
-  include 'htmlstyle.css';
+  include '../coursesstyle.css';
+
   ?>
 </style>
 
